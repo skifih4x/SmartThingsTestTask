@@ -39,7 +39,7 @@ class DeviceCell: UITableViewCell {
             super.frame = frame
         }
     }
-
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setupUI()
