@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005070F02A5B059700B9D97D /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 005070EF2A5B059700B9D97D /* SkeletonView */; };
 		005070F52A5B29F500B9D97D /* RoundedAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005070F42A5B29F500B9D97D /* RoundedAlertController.swift */; };
 		005070F92A5B389A00B9D97D /* AppBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005070F82A5B389A00B9D97D /* AppBuilder.swift */; };
 		007C1AC52A5A03C700AAE1BC /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C1AC42A5A03C700AAE1BC /* UIView + Extension.swift */; };
@@ -54,7 +53,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00F7F40E2A586B4B005364EF /* SnapKit in Frameworks */,
-				005070F02A5B059700B9D97D /* SkeletonView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +197,6 @@
 			name = SmartThingsTestTask;
 			packageProductDependencies = (
 				00F7F40D2A586B4B005364EF /* SnapKit */,
-				005070EF2A5B059700B9D97D /* SkeletonView */,
 			);
 			productName = SmartThingsTestTask;
 			productReference = 00F7F3F52A5869C0005364EF /* SmartThingsTestTask.app */;
@@ -231,7 +228,6 @@
 			mainGroup = 00F7F3EC2A5869C0005364EF;
 			packageReferences = (
 				00F7F40C2A586B4B005364EF /* XCRemoteSwiftPackageReference "SnapKit" */,
-				005070EE2A5B059600B9D97D /* XCRemoteSwiftPackageReference "SkeletonView" */,
 			);
 			productRefGroup = 00F7F3F62A5869C0005364EF /* Products */;
 			projectDirPath = "";
@@ -482,14 +478,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		005070EE2A5B059600B9D97D /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.30.0;
-			};
-		};
 		00F7F40C2A586B4B005364EF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -501,11 +489,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		005070EF2A5B059700B9D97D /* SkeletonView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 005070EE2A5B059600B9D97D /* XCRemoteSwiftPackageReference "SkeletonView" */;
-			productName = SkeletonView;
-		};
 		00F7F40D2A586B4B005364EF /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 00F7F40C2A586B4B005364EF /* XCRemoteSwiftPackageReference "SnapKit" */;
